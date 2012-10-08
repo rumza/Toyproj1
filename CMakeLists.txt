@@ -10,3 +10,6 @@ SET(MyPrac_HEADERS firstwidget.h)
 
 # Needed/optional packages definitions
 FIND_PACKAGE(Qt4 4.7.0 COMPONENTS QtCore QtGui QtOpenGL QtXml QtDeclarative QtSql QtSvg REQUIRED)
+
+
+INCLUDE_DIRECTORIES( ${QT_INCLUDE_DIR})
