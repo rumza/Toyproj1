@@ -2,7 +2,8 @@
 
 
 FirstWidget::FirstWidget(QWidget *parent) :
-    QWidget(parent)
+    QWidget(parent),
+ ui(new Ui::FirstWidget)
     
 {
     ui->setupUi(this);
