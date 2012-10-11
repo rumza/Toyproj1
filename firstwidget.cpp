@@ -1,9 +1,9 @@
 #include "firstwidget.h"
-#include "ui_firstwidget.h"
+
 
 FirstWidget::FirstWidget(QWidget *parent) :
-    QWidget(parent),
-    ui(new Ui::FirstWidget)
+    QWidget(parent)
+    
 {
     ui->setupUi(this);
 }
