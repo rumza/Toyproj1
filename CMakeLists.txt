@@ -30,7 +30,7 @@ INCLUDE_DIRECTORIES(
                )
 SET(QT_USE_QTOPENGL TRUE)
 
-SET(Totproj1_SOURCES main.cpp firstwidget.cpp)
+SET(Toyproj1_SOURCES main.cpp firstwidget.cpp)
 SET(Toyproj1_HEADERS firstwidget.h)
 
 
