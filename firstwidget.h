@@ -3,7 +3,7 @@
 
 #include <QWidget>
 
-namespace Ui {
+namespace  {
 class FirstWidget;
 }
 
@@ -15,8 +15,7 @@ public:
     explicit FirstWidget(QWidget *parent = 0);
     ~FirstWidget();
     
-private:
-    Ui::FirstWidget *ui;
+
 };
 
 #endif // FIRSTWIDGET_H
