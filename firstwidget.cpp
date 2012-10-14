@@ -6,4 +6,5 @@ FirstWidget::FirstWidget(QWidget *parent) :
  
 
 FirstWidget::~FirstWidget()
-
+{
+}

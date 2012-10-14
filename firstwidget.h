@@ -3,7 +3,7 @@
 
 #include <QWidget>
 
-namespace  {
+namespace w {
 class FirstWidget;
 }
 
